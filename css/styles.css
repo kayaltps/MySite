@@ -1,0 +1,182 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  /* 16px=100%=1em */
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-menu {
+  display: block;
+  background: grey;
+  margin: 0;
+}
+
+.top-menu ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.top-menu a:hover {
+  background-color: #337FED;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 20px;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+}
+
+.profile-pic
+{
+  width:20%;
+  height:20%;
+}
+
+
+hr {
+  border-width: 10px 0 0;
+  width: 5%;
+  border-style: dotted;
+  border-color: grey;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  margin-top: 0 auto 0 auto;
+  overflow: auto;
+}
+
+.top-cloud {
+  right: 300px;
+  top: 50px;
+  position: absolute;
+}
+
+.bottom-cloud {
+  left: 300px;
+  position: absolute;
+  bottom: 300px;
+}
+
+.top-sub {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.middle-container {
+  background-color: #E4F9F5;
+  margin-top: 0 auto 0 auto;
+  overflow: auto;
+}
+
+.profile {
+  padding: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  line-height: 2;
+  text-align: left;
+  padding: 30px;
+}
+
+
+.computer-image {
+  height: 25%;
+  width: 25%;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+}
+
+.muff-image {
+  height: 25%;
+  width: 25%;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding: 30px;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin:10px 20px 10px 20px;
+}
+
+a:hover
+{
+  color:#EAF6F6;
+}
+
+.btn {
+  background: #3D94F6;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 100 auto 100 auto;
+  overflow: auto;
+  padding: 20px;
+}
+
+.footer-link {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
